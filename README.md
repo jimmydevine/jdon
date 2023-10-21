@@ -5,9 +5,6 @@ jimmy devine object notation
 * [Overview](#overview)
 * [Syntax](#syntax)
   * [Atoms](#atoms)
-    * [Non-Functional](#non-functional)
-      * [Spacing](#spacing)
-      * [Comments](#comments)
     * [Elements](#elements)
       * [Boolean](#boolean)
       * [Numeric](#numeric)
@@ -23,17 +20,14 @@ jimmy devine object notation
       * [Assignments](#assignments)
       * [Expressions](#expressions)
       * [Includes](#includes)
+    * [Non-Functional](#non-functional)
+      * [Spacing](#spacing)
+      * [Comments](#comments)
 
 
 # Overview
 
 # Syntax
-
-## Non-Functional
-
-### Spacing
-
-### Comments
 
 ## Elements
 
@@ -64,3 +58,9 @@ jimmy devine object notation
 ### Expressions
 
 ### Includes
+
+## Non-Functional
+
+### Spacing
+
+### Comments
