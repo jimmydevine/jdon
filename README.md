@@ -29,40 +29,38 @@ jimmy devine object notation
 
 # Syntax
 
-## Atoms
+## Non-Functional
 
-### Non-Functional
+### Spacing
 
-#### Spacing
+### Comments
 
-#### Comments
+## Elements
 
-### Elements
+### Boolean
 
-#### Boolean
+### Numeric
 
-#### Numeric
+#### Integer
 
-##### Integer
+#### Float
 
-##### Float
+### Strings
 
-#### Strings
+### Containers
 
-#### Containers
+#### Arrays
 
-##### Arrays
+#### Objects
 
-##### Objects
+## Functional
 
-### Functional
+### Paths
 
-#### Paths
+### Variables
 
-#### Variables
+### Assignments
 
-#### Assignments
+### Expressions
 
-#### Expressions
-
-#### Includes
+### Includes
