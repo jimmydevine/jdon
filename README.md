@@ -17,6 +17,7 @@ jimmy devine object notation
     *   Arrays
     *   Objects
   * Functional
+    * Paths
     * Variables
     * Assignments
     * Expressions
