@@ -211,7 +211,23 @@ If a start designation is not provided, the path is relative to the current cont
 
 #### Environment Variables
 
+Environment variables are defined as a path preceded by an at sign (@).  Environment variables read from the running process' environment.
+
+Examples
+```
+@PATH
+```
+
 #### Local Variables
+
+Local variables are defined as a path preceded by a dollar sign ($).  As assignments, the path must end with a named value under a valid container.  As references, the path may point to either a variable or element.  If both exist, priority is given to the variable.
+
+Examples
+```
+$local_var        // references a the local variable named 'local_var'
+$~root_var        // references a root variable named 'root_var'
+$~0.[field_name]  // references a variable named 'field_name] under the first element under the root evel array
+```
 
 ### Assignments
 
