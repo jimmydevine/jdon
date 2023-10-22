@@ -23,7 +23,7 @@
     * [Assignments](#assignments)
     * [Expressions](#expressions)
       * [Unary Operators](#unary-operators)
-        * [Not](#not)
+        * [Invert](#invert)
       * [Binary Operators](#binary-operators)
         * [Addition](#addition)
         * [Subtraction](#subtraction)
@@ -144,7 +144,7 @@ If a start designation is not provided, the path is relative to the current cont
 
 #### Unary Operators
 
-##### Not
+##### Invert
 
 #### Binary Operators
 
