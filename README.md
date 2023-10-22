@@ -19,7 +19,7 @@
     * [Assignments](#assignments)
     * [Expressions](#expressions)
       * [Unary Operators](#unary-operators)
-        * [Invert](#invert)
+        * [Boolean Not](#boolean-not)
       * [Binary Operators](#binary-operators)
         * [Addition](#addition)
         * [Subtraction](#subtraction)
@@ -162,7 +162,15 @@ $~var = 1 + 1
 
 #### Unary Operators
 
-##### Invert
+##### Boolean Not
+
+Type | Operation | Notes
+--- |--- |--- |
+Boolean | Boolean Not | True if bool is false
+Numeric | Boolean Not | True if number is 0
+String | isEmpty | True if the string length is 0
+Array | isEmpty | True if the array is empty
+Object | isEmpty | True if the object is empty
 
 #### Binary Operators
 
