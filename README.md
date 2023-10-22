@@ -48,7 +48,7 @@
 
 # Overview
 
-JDON is a blend of flexible and functional configuration languages and reduces to a JSON structure.
+JDON is a blend of flexible and functional configuration languages.  It reduces to a JSON structure.
 
 # Syntax
 
