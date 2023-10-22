@@ -37,6 +37,9 @@
     * [Includes](#includes)
   * [Non-Functional](#non-functional)
     * [Spacing](#spacing)
+      * [White Space](#white-space)
+      * [Blue Space](#blue-space)
+      * [Green Space)(green-space)
     * [Comments](#comments)
       * [Hash](#hash)
       * [Double Slash](#doubler-slash)
@@ -179,6 +182,12 @@ Numeric | Boolean | Boolean And
 ## Non-Functional
 
 ### Spacing
+
+#### White Space
+
+#### Blue Space
+
+#### Green Space
 
 ### Comments
 
