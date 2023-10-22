@@ -62,7 +62,19 @@
 
 #### Single Quote
 
+Single quoted strings are strings which start and end with one single quote character.  They may not span multiple lines and may not contain variables, $ is treated literally.
+
+```
+' This is a single quoted string '
+```
+
 #### Double Quote
+
+Double quoted strings are strings which start and end with one double quote character.  They may not span multiple lines but may contain variables.
+
+```
+" This is a single quoted string which may contain a $variable "
+```
 
 #### Triple Quote
 
