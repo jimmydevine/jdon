@@ -207,8 +207,6 @@ Object | Object | Object Concatenation | -
 
 ### Comments
 
-Comments may begin at the beginning of a line or within or following line content.
-
 #### Hash
 
 Hash comments begin with a # character and continue until the end of the line.  They may begin at the beginning of the line or following line content.
