@@ -259,6 +259,34 @@ foobar - foo             // bar
 
 ##### Multiplication
 
+Left Type | Right Type | Operation | Notes
+--- |--- |--- |--- |
+Boolean | Boolean | - | Operation not allowed
+Boolean | Numeric | - | Operation not allowed
+Boolean | String | - | Operation not allowed
+Boolean | Array | - | Operation not allowed
+Boolean | Object | - | Operation not allowed
+Numeric | Boolean | - | Operation not allowed
+Numeric | Numeric | Arithmetic Multiplication | -
+Numeric | String | String Repeat| Repeats the string number times
+Numeric | Array | Array Repeat | Repeats the array number times
+Numeric | Object | - | Operation not allowed
+String | Boolean | - |  Operation not allowed
+String | Numeric | String Repeat | Repeats the string number times
+String | String | - | Operation not allowed
+String | Array | - |  Operation not allowed
+String | Object | - | Operation not allowed
+Array | Boolean | - | Operation not allowed
+Array | Numeric | Array Repeat | Repeats the array number times
+Array | String | - | Operation not allowed
+Array | Array | - | Operation not allowed
+Array | Object | - | Operation not allowed
+Object | Boolean | - | Operation not allowed
+Object | Numeric | - | Operation not allowed
+Object | String | - | Operation not allowed
+Object | Array | - | Operation not allowed
+Object | Object | - | Operation not allowed
+
 ##### Division
 
 ##### Modulus
