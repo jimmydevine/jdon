@@ -217,7 +217,7 @@ Blue space includes any white space or comments.
 
 #### Green Space
 
-Green space includes spaces, tabs and hash and double slash comments.
+Green space includes spaces, tabs and until-end-of-line comments (hash and double slash).
 
 ### Comments
 
