@@ -150,6 +150,12 @@ If a start designation is not provided, the path is relative to the current cont
 
 ##### Addition
 
+Left Type | Right Type | Operation
+--- |--- |--- |
+Boolean | Boolean | Boolean And
+Boolean | Numeric | Boolean And
+Numeric | Boolean | Boolean And
+
 ##### Subtraction
 
 ##### Multiplication
