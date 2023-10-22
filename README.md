@@ -439,6 +439,34 @@ Object | Object | - | Operation not allowed
 
 ### Concatenation
 
+Left Type | Right Type | Operation | Notes
+--- |--- |--- |--- |
+Boolean | Boolean | - | Operation not allowed
+Boolean | Numeric | - | Operation not allowed
+Boolean | String | - | Operation not allowed
+Boolean | Array | - | Operation not allowed
+Boolean | Object | - | Operation not allowed
+Numeric | Boolean | - | Operation not allowed
+Numeric | Numeric | - | Operation not allowed
+Numeric | String | - | Operation not allowed
+Numeric | Array | - | Operation not allowed
+Numeric | Object | - | Operation not allowed
+String | Boolean | - |  Operation not allowed
+String | Numeric | - | Operation not allowed
+String | String | String Concatenation | -
+String | Array | - |  Operation not allowed
+String | Object | - | Operation not allowed
+Array | Boolean | - | Operation not allowed
+Array | Numeric | - | Operation not allowed
+Array | String | - | Operation not allowed
+Array | Array | Array Concatenation | -
+Array | Object | - | Operation not allowed
+Object | Boolean | - | Operation not allowed
+Object | Numeric | - | Operation not allowed
+Object | String | - | Operation not allowed
+Object | Array | - | Operation not allowed
+Object | Object | Object Concatenation | -
+
 ### Includes
 
 ```
