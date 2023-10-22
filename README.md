@@ -33,6 +33,7 @@
         * [And](#and)
         * [Or](#or)
         * [Xor](#xor)
+    * [Concatenation](#concatenation)
     * [Includes](#includes)
   * [Non-Functional](#non-functional)
     * [Spacing](#spacing)
@@ -110,6 +111,8 @@
 ##### Or
 
 ##### Xor
+
+### Concatenation
 
 ### Includes
 
