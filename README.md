@@ -121,6 +121,12 @@ This is a sextuple quoted string which may contain a $variable
 
 ### Paths
 
+Paths define relative or absolute endpoints in the document structure.  They can be applied to object keys and variables.  Paths are in the form:
+
+```
+[start designation]element[.element]+
+```
+
 ### Variables
 
 #### Environment Variables
