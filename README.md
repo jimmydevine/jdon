@@ -144,6 +144,20 @@ $~0.[field_name]  // references a variable named 'field_name] under the first el
 
 ### Assignments
 
+Assigns a value to a variable.
+
+Definition
+```
+$VARPATH = value
+```
+
+Value may be any element, variable or expression.
+
+Examples
+```
+$~var = 1 + 1
+```
+
 ### Expressions
 
 #### Unary Operators
