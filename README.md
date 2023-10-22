@@ -25,14 +25,14 @@
       * [Unary Operators](#unary-operators)
         * [Not](#not)
       * [Binary Operators](#binary-operators)
-        * [Add](#add)
-        * [Subtract](#subtract)
-        * [Multiply](#multiply)
-        * [Divide](#divide)
-        * [Mod](#mod)
-        * [And](#and)
-        * [Or](#or)
-        * [Xor](#xor)
+        * [Addition](#addition)
+        * [Subtraction](#subtraction)
+        * [Multiplication](#multiplication)
+        * [Division](#division)
+        * [Modulus](#modulus)
+        * [Boolean And](#boolean-and)
+        * [Boolean Or](#boolean-or)
+        * [Boolean Xor](#boolean-xor)
     * [Concatenation](#concatenation)
     * [Includes](#includes)
   * [Non-Functional](#non-functional)
@@ -148,21 +148,21 @@ If a start designation is not provided, the path is relative to the current cont
 
 #### Binary Operators
 
-##### Add
+##### Addition
 
-##### Subtract
+##### Subtraction
 
-##### Multiply
+##### Multiplication
 
-##### Divide
+##### Division
 
-##### Mod
+##### Modulus
 
-##### And
+##### Boolean And
 
-##### Or
+##### Boolean Or
 
-##### Xor
+##### Boolean Xor
 
 ### Concatenation
 
