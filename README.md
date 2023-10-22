@@ -207,9 +207,11 @@ Object | Object | Object Concatenation | -
 
 ### Comments
 
+Comments may begin at the beginning of a line or within or following line content.
+
 #### Hash
 
-Hash comments begin with a # character and continue until the end of the line.  They may begin at the beginning of the line or preceding line content.
+Hash comments begin with a # character and continue until the end of the line.  They may begin at the beginning of the line or following line content.
 
 ```
 # This is a hash comment
@@ -217,7 +219,7 @@ Hash comments begin with a # character and continue until the end of the line.  
 
 #### Double Slash
 
-Double slash comments begin with two / characters and continue until the end of the line.  They may begin at the beginning of the line or preceding line content.
+Double slash comments begin with two / characters and continue until the end of the line.  They may begin at the beginning of the line or following line content.
 
 ```
 // This is a double slash comment
@@ -225,7 +227,21 @@ Double slash comments begin with two / characters and continue until the end of 
 
 #### Slash Star
 
+Slash star comments begin with a /* and end with a */.  They may span multiple lines and may begin at the beginning of a line or within content.
+
+```
+/* This is a slash star comment
+it may span multiple lines */
+```
+
 #### HTML
+
+HTML comments begin with a <!-- and end with a -->.  They may span multiple lines and may begin at the beginning of a line or within content.
+
+```
+<!-- This is a slash star comment
+it may span multiple lines -->
+```
 
 ### Spacing
 
