@@ -159,7 +159,11 @@ Left Type | Right Type | Operation
 --- |--- |--- |
 Boolean | Boolean | Boolean And
 Boolean | Numeric | Boolean And
+Boolean | String | String Concatenation
 Numeric | Boolean | Boolean And
+Numeric | Numeric | Arithmetic Add
+Numeric | String | String Concatenation
+String | String | String Concatenation
 
 ##### Subtraction
 
