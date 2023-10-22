@@ -127,6 +127,11 @@ Paths define relative or absolute endpoints in the document structure.  They can
 [start designation]element[.element]+
 ```
 
+If a start designation is not provided, the path is relative to the current container.  Start designations may be one of:
+- ~ indicates the root of the document
+- . indicates the current container
+- .. indicates the parent container, additional . will reference each successive parent
+
 ### Variables
 
 #### Environment Variables
