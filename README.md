@@ -32,6 +32,7 @@
     * [Concatenation](#concatenation)
     * [Includes](#includes)
   * [Elements](#elements)
+    * [Null](#null)
     * [Boolean](#boolean)
     * [Numeric](#numeric)
       * [Integer](#integer)
@@ -283,6 +284,15 @@ include("examples/include.jdon", root="https://jdon.jimmyver.se/")
 ```
 
 ## Elements
+
+### Null
+
+An element used to indicate an undefined state.  Null is case-insensitive.
+
+Examples
+```
+null
+```
 
 ### Boolean
 
