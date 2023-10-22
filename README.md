@@ -251,6 +251,16 @@ foobar - foo             // bar
 
 ### Includes
 
+```
+include(PATH, [root=ROOT_PATH])
+```
+
+Include additional JDON content from file.  Paths may be any valid quoted string and reference locally accessible files on disk or via http.  If no root is given, relative paths are considered to be relative to the parent file.
+
+```
+include("examples/include.jdon", root="https://jdon.jimmyver.se/")
+```
+
 ## Non-Functional
 
 ### Comments
