@@ -209,7 +209,19 @@ Object | Object | Object Concatenation | -
 
 #### Hash
 
+Hash comments begin with a # character and continue until the end of the line.  They may begin at the beginning of the line or preceding line content.
+
+```
+# This is a hash comment
+```
+
 #### Double Slash
+
+Double slash comments begin with two / characters and continue until the end of the line.  They may begin at the beginning of the line or preceding line content.
+
+```
+// This is a double slash comment
+```
 
 #### Slash Star
 
