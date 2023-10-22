@@ -57,18 +57,23 @@ JDON is a blend of flexible and functional configuration languages and reduces t
 
 ### Boolean
 
-Boolean values are represented by one of the following:
+Definition
+```
+0|1|false|true|no|yes
+```
+All characters are case-insensitive
 
+Examples
 ```
 0     # boolean false
 1     # boolean true
-true  # boolean false
-false # boolean true
+false # boolean false
+true  # boolean true
 no    # boolean false
 yes   # boolean true
 ```
 
-All characters are case-insensitive
+
 
 ### Numeric
 
