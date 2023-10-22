@@ -11,6 +11,7 @@
       * [Double Quote](#double-quote)
       * [Triple Quote](#triple-quote)
       * [Sextuple Quote](#sextuple-quote)
+      * [Unquoted](#unquoted)
     * [Containers](#containers)
       * [Arrays](#arrays)
       * [Objects](#objects)
@@ -65,6 +66,8 @@
 #### Triple Quote
 
 #### Sextuple Quote
+
+#### Unquoted
 
 ### Containers
 
