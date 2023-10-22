@@ -165,11 +165,12 @@ this is another unquoted string.
 
 #### Arrays
 
-Arrays are sets of elements separated by a valid separator.  All elements are valid array members, including other arrays.  Arrays must be enclosed in brackets [ ], except if an array appears as the root level element.  Valid separators are commas (,) and end-of-line characters (\r \n)
+Arrays are sets of elements separated by a valid separator.  All elements are valid array members, including other arrays.  Arrays must be enclosed in brackets [ ], except if the array appears as the root level element.  Valid separators are commas (,) and end-of-line characters (\r \n).
 
 Examples
 ```
 [ 1, 2, 3 ]
+
 [
   1
   2
@@ -178,6 +179,18 @@ Examples
 ```
 
 #### Objects
+
+Objects are sets of key/value pairs separated by a valid separator.  Keys may be any valid [path](#path) and values may be any valid element, including other objects.  Objects must be enclosed in braces { }, except if the object appears as the root level element.  Valid pair separators are equals (=) and colons (:).  Valid member separators are commas (,) and end-of-line characters (\r \n).
+
+Examples
+```
+{ a: b, c: d }
+
+{
+  a = b
+  c = d
+}
+```
 
 ## Functional
 
