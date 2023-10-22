@@ -185,9 +185,15 @@ Numeric | Boolean | Boolean And
 
 #### White Space
 
+White space includes one or more space, tab, newline or carriage return characters.
+
 #### Blue Space
 
+Blue space includes any white space or comments.
+
 #### Green Space
+
+Green space includes spaces, tabs and hash and double slash comments.
 
 ### Comments
 
