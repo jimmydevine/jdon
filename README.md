@@ -52,6 +52,19 @@
 
 ### Boolean
 
+Boolean values are represented by one of the following:
+
+```
+0     # boolean false
+1     # boolean true
+true  # boolean false
+false # boolean true
+no    # boolean false
+yes   # boolean true
+```
+
+All characters are case-insensitive
+
 ### Numeric
 
 #### Integer
