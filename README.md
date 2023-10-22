@@ -25,7 +25,7 @@ jimmy devine object notation
     * [Assignments](#assignments)
     * [Expressions](#expressions)
       * [Unary Operators](#unary-operators)
-        * Not
+        * [Not](#not)
       * [Binary Operators](#binary-operators)
         * [Add](#add)
         * [Subtract](#subtract)
