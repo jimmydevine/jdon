@@ -26,7 +26,10 @@ jimmy devine object notation
   * [Non-Functional](#non-functional)
     * [Spacing](#spacing)
     * [Comments](#comments)
-
+      * [Hash](#hash)
+      * [Double Slash](#doubler-slash)
+      * [Slash Star](#slash-star)
+      * [HTML](#html)
 
 
 # Overview
@@ -76,3 +79,11 @@ jimmy devine object notation
 ### Spacing
 
 ### Comments
+
+#### Hash
+
+#### Double Slash
+
+#### Slash Star
+
+#### HTML
