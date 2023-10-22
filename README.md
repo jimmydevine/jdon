@@ -38,7 +38,7 @@
   * [Non-Functional](#non-functional)
     * [Comments](#comments)
       * [Hash](#hash)
-      * [Double Slash](#doubler-slash)
+      * [Double Slash](#double-slash)
       * [Slash Star](#slash-star)
       * [HTML](#html)
     * [Spacing](#spacing)
@@ -164,6 +164,18 @@ this is another unquoted string.
 ### Containers
 
 #### Arrays
+
+Arrays are sets of elements separated by a valid separator.  All elements are valid array members, including other arrays.  Arrays must be enclosed in brackets [ ], except if an array appears as the root level element.  Valid separators are commas (,) and end-of-line characters (\r \n)
+
+Examples
+```
+[ 1, 2, 3 ]
+[
+  1
+  2
+  3
+]
+```
 
 #### Objects
 
