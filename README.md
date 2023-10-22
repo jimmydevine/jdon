@@ -39,7 +39,7 @@
     * [Spacing](#spacing)
       * [White Space](#white-space)
       * [Blue Space](#blue-space)
-      * [Green Space)(green-space)
+      * [Green Space](#green-space)
     * [Comments](#comments)
       * [Hash](#hash)
       * [Double Slash](#doubler-slash)
