@@ -24,6 +24,8 @@ jimmy devine object notation
       * [Local Variables](#local-variables)
     * [Assignments](#assignments)
     * [Expressions](#expressions)
+      * [Unary Operators](#unary-operators)
+      * [Binary Operators](#binary-operators)
     * [Includes](#includes)
   * [Non-Functional](#non-functional)
     * [Spacing](#spacing)
@@ -77,6 +79,10 @@ jimmy devine object notation
 ### Assignments
 
 ### Expressions
+
+#### Unary Operators
+
+#### Binary Operators
 
 ### Includes
 
