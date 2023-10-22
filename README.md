@@ -133,7 +133,7 @@ Examples
 
 #### Local Variables
 
-Local variables are defined as a path preceded by a dollar sign ($).  As assignments, the path must end with a named value under a valid container.  As references, the path may point to either a variable or element.  If both exist, priority is given to the variable.
+Local variables are defined as a path preceded by a dollar sign ($).  As assignments, the path must end with a named value under a valid container.  As references, the path may point to either a variable or element.  If both exist, priority is given to the variable.  When referenced, variables assume the type they are evaluated to.
 
 Examples
 ```
