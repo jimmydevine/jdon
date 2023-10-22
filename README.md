@@ -236,7 +236,7 @@ it may span multiple lines */
 
 #### HTML
 
-HTML comments begin with a <!-- and end with a -->.  They may span multiple lines and may begin at the beginning of a line or within content.
+HTML comments begin with a &lt;!-- and end with a --&gt;.  They may span multiple lines and may begin at the beginning of a line or within content.
 
 ```
 <!-- This is a slash star comment
