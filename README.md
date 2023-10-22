@@ -155,17 +155,35 @@ If a start designation is not provided, the path is relative to the current cont
 
 ##### Addition
 
-Left Type | Right Type | Operation
---- |--- |--- |
-Boolean | Boolean | Boolean And
-Boolean | Numeric | Boolean And
-Boolean | String | String Concatenation
-Numeric | Boolean | Boolean And
-Numeric | Numeric | Arithmetic Add
-Numeric | String | String Concatenation
-String | String | String Concatenation
-Array | Array | Array Concatenation
-Object | Object | Object Concatenation
+Addition operator is a + character and supports the following operations:
+
+Left Type | Right Type | Operation | Notes
+--- |--- |--- |--- |
+Boolean | Boolean | Boolean And | -
+Boolean | Numeric | Boolean And | Number converted to boolean, 0 is false, non-zero is true
+Boolean | String | String Concatenation | Boolean converted to string, false or true
+Boolean | Array | Array Prepend | -
+Boolean | Object | - | Operation not allowed
+Numeric | Boolean | Boolean And | Number converted to boolean, 0 is false, non-zero is true
+Numeric | Numeric | Arithmetic Add | -
+Numeric | String | String Concatenation | Number converted to string
+Numeric | Array | Array Prepend | -
+Numeric | Object | - | Operation not allowed
+String | Boolean | String Concatenation | Boolean converted to string, false or true
+String | Numeric | String Concatenation | Number converted to string
+String | String | String Concatenation | -
+String | Array | Array Prepend | -
+String | Object | - | Operation not allowed
+Array | Boolean | Array Append | -
+Array | Numeric | Array Append | -
+Array | String | Array Append | -
+Array | Array | Array Concatenation | -
+Array | Object | Array Append | -
+Object | Boolean | - | Operation not allowed
+Object | Numeric | - | Operation not allowed
+Object | String | - | Operation not allowed
+Object | Array | Array Prepend | -
+Object | Object | Object Concatenation | -
 
 ##### Subtraction
 
