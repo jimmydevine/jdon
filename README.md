@@ -1,4 +1,4 @@
-# jdon
+# JDON
 * [Overview](#overview)
 * [Syntax](#syntax)
   * [Elements](#elements)
@@ -45,6 +45,8 @@
 
 
 # Overview
+
+JDON is a blend of flexible and functional configuration languages and reduces to a JSON structure.
 
 # Syntax
 
