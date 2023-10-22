@@ -78,6 +78,14 @@ Double quoted strings are strings which start and end with one double quote char
 
 #### Triple Quote
 
+Triple qouted strings are strings which start and end with three single quote characters.  They may span multiple lines but may not contain variables, $ is treated literally.
+
+```
+'''
+This is a triple quoted string
+'''
+```
+
 #### Sextuple Quote
 
 #### Unquoted
