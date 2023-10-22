@@ -78,9 +78,27 @@ yes   # boolean true
 ### Numeric
 
 #### Integer
+Definition
+```
+[0-9]+|0b[01]+|0o[0-7]+|0x[0-9a-fA-F]+
+```
 
+Examples
+```
+100
+0b1100100
+0o144
+0x64
+```
 #### Float
-
+Definition
+```
+[0-9]+\.[0-9]+
+```
+Examples
+```
+3.14159
+```
 ### Strings
 
 #### Single Quote
