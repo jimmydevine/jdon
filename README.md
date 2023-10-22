@@ -164,6 +164,8 @@ Numeric | Boolean | Boolean And
 Numeric | Numeric | Arithmetic Add
 Numeric | String | String Concatenation
 String | String | String Concatenation
+Array | Array | Array Concatenation
+Object | Object | Object Concatenation
 
 ##### Subtraction
 
