@@ -20,6 +20,8 @@ jimmy devine object notation
   * [Functional](#functional)
     * [Paths](#paths)
     * [Variables](#variables)
+      * [Environment Variables](#environment-variables)
+      * [Local Variables](#local-variables)
     * [Assignments](#assignments)
     * [Expressions](#expressions)
     * [Includes](#includes)
@@ -67,6 +69,10 @@ jimmy devine object notation
 ### Paths
 
 ### Variables
+
+#### Environment Variables
+
+#### Local Variables
 
 ### Assignments
 
