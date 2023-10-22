@@ -52,6 +52,59 @@ JDON is a blend of flexible and functional configuration languages and reduces t
 
 # Syntax
 
+
+## Non-Functional
+
+### Comments
+
+#### Hash
+
+Hash comments begin with a # character and continue until the end of the line.  They may begin at the beginning of the line or following line content.
+
+```
+# This is a hash comment
+```
+
+#### Double Slash
+
+Double slash comments begin with two / characters and continue until the end of the line.  They may begin at the beginning of the line or following line content.
+
+```
+// This is a double slash comment
+```
+
+#### Slash Star
+
+Slash star comments begin with a /* and end with a */.  They may span multiple lines and may begin at the beginning of a line or within content.
+
+```
+/* This is a slash star comment
+it may span multiple lines */
+```
+
+#### HTML
+
+HTML comments begin with a &lt;!-- and end with a --&gt;.  They may span multiple lines and may begin at the beginning of a line or within content.
+
+```
+<!-- This is a slash star comment
+it may span multiple lines -->
+```
+
+### Spacing
+
+#### White Space
+
+White space includes one or more space, tab, newline or carriage return characters.
+
+#### Blue Space
+
+Blue space includes any white space or comments.
+
+#### Green Space
+
+Green space includes spaces, tabs and until-end-of-line comments (hash and double slash).
+
 ## Functional
 
 ### Paths
@@ -207,59 +260,6 @@ Include additional JDON content from file.  Paths may be any valid quoted string
 include("examples/include.jdon", root="https://jdon.jimmyver.se/")
 ```
 
-## Non-Functional
-
-### Comments
-
-#### Hash
-
-Hash comments begin with a # character and continue until the end of the line.  They may begin at the beginning of the line or following line content.
-
-```
-# This is a hash comment
-```
-
-#### Double Slash
-
-Double slash comments begin with two / characters and continue until the end of the line.  They may begin at the beginning of the line or following line content.
-
-```
-// This is a double slash comment
-```
-
-#### Slash Star
-
-Slash star comments begin with a /* and end with a */.  They may span multiple lines and may begin at the beginning of a line or within content.
-
-```
-/* This is a slash star comment
-it may span multiple lines */
-```
-
-#### HTML
-
-HTML comments begin with a &lt;!-- and end with a --&gt;.  They may span multiple lines and may begin at the beginning of a line or within content.
-
-```
-<!-- This is a slash star comment
-it may span multiple lines -->
-```
-
-### Spacing
-
-#### White Space
-
-White space includes one or more space, tab, newline or carriage return characters.
-
-#### Blue Space
-
-Blue space includes any white space or comments.
-
-#### Green Space
-
-Green space includes spaces, tabs and until-end-of-line comments (hash and double slash).
-
-
 ## Elements
 
 ### Boolean
@@ -279,8 +279,6 @@ true  # boolean true
 no    # boolean false
 yes   # boolean true
 ```
-
-
 
 ### Numeric
 
