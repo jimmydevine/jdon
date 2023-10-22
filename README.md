@@ -10,6 +10,10 @@ jimmy devine object notation
       * [Integer](#integer)
       * [Float](#float)
     * [Strings](#strings)
+      * [Single Quote](#single-quote)
+      * [Double Quote](#double-quote)
+      * [Triple Quote](#triple-quote)
+      * [Sextuple Quote](#sextuple-quote)
     * [Containers](#containers)
     *   [Arrays](#arrays)
     *   [Objects](#objects)
@@ -22,10 +26,7 @@ jimmy devine object notation
   * [Non-Functional](#non-functional)
     * [Spacing](#spacing)
     * [Comments](#comments)
-      * [Single Quote](#single-quote)
-      * [Double Quote](#double-quote)
-      * [Triple Quote](#triple-quote)
-      * [Sextuple Quote](#sextuple-quote)
+
 
 
 # Overview
@@ -43,6 +44,14 @@ jimmy devine object notation
 #### Float
 
 ### Strings
+
+#### Single Quote
+
+#### Double Quote
+
+#### Triple Quote
+
+#### Sextuple Quote
 
 ### Containers
 
@@ -67,11 +76,3 @@ jimmy devine object notation
 ### Spacing
 
 ### Comments
-
-#### Single Quote
-
-#### Double Quote
-
-#### Triple Quote
-
-#### Sextuple Quote
