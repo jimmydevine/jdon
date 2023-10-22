@@ -139,6 +139,28 @@ This is a sextuple quoted string which may contain a $variable
 
 #### Unquoted
 
+An unquoted string is a set of characters which cannot include any of the following
+```
+=
+#
+,
+[ or ]
+{ or }
++ or -
+* or /
+!
+$
+"
+'
+newline characters (\r \n)
+```
+
+Examples
+```
+this is an unquoted string.
+this is another unquoted string.
+```
+
 ### Containers
 
 #### Arrays
