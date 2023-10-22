@@ -88,6 +88,14 @@ This is a triple quoted string
 
 #### Sextuple Quote
 
+Sextuple quoted strings are strings which start and end with three double quote characters.  They may span multiple lines and may contain variables.
+
+```
+"""
+This is a sextuple quoted string which may contain a $variable
+"""
+```
+
 #### Unquoted
 
 ### Containers
