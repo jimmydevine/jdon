@@ -185,7 +185,55 @@ Object | String | - | Operation not allowed
 Object | Array | Array Prepend | -
 Object | Object | Object Concatenation | -
 
+```
+true + false          // boolean false
+true + 1              // boolean true
+1 + 1                 // numeric 2
+foo + bar             // string foobar
+[ ] + 1               // [ 1 ]
+[ 1 ] + [ 2 ]         // [ 1, 2 ]
+{ a: b } + { c: d }   // { a: b, c: d }
+```
+
 ##### Subtraction
+
+Subtraction operator is a - character and supports the following operations:
+
+Left Type | Right Type | Operation | Notes
+--- |--- |--- |--- |
+Boolean | Boolean | - | Operation not allowed
+Boolean | Numeric | - | Operation not allowed
+Boolean | String | - | Operation not allowed
+Boolean | Array | - | Operation not allowed
+Boolean | Object | - | Operation not allowed
+Numeric | Boolean | - | Operation not allowed
+Numeric | Numeric | Arithmetic Subtract | -
+Numeric | String | - |  Operation not allowed
+Numeric | Array | - |  Operation not allowed
+Numeric | Object | - | Operation not allowed
+String | Boolean | - |  Operation not allowed
+String | Numeric | - |  Operation not allowed
+String | String | Substring Deletion | Remove all instances of substring
+String | Array | - |  Operation not allowed
+String | Object | - | Operation not allowed
+Array | Boolean | Array Deletion | Remove all items in the array that match boolean
+Array | Numeric | Array Deletion | Remove all items in the array that match number
+Array | String | Array Deletion | Remove all items in the array that match string
+Array | Array | Array Difference | Everything in the left array which is not in the right
+Array | Object | Array Deletion | Remove all items in array that match object
+Object | Boolean | - | Operation not allowed
+Object | Numeric | - | Operation not allowed
+Object | String | - | Operation not allowed
+Object | Array | - | Operation not allowed
+Object | Object | Object Difference | -
+
+```
+2 - 1                    // 1
+foobar - foo             // bar
+[ 1, 2, 3 ] - 2          // [ 1, 3 ]
+[ 1, 2, 3 ] - [ 1, 3 ]   // [ 2 ]
+{ a: b, c: d } - { c: d} // { a: b}
+```
 
 ##### Multiplication
 
