@@ -1,20 +1,16 @@
 # JDON
 * [Overview](#overview)
 * [Syntax](#syntax)
-  * [Elements](#elements)
-    * [Boolean](#boolean)
-    * [Numeric](#numeric)
-      * [Integer](#integer)
-      * [Float](#float)
-    * [Strings](#strings)
-      * [Single Quote](#single-quote)
-      * [Double Quote](#double-quote)
-      * [Triple Quote](#triple-quote)
-      * [Sextuple Quote](#sextuple-quote)
-      * [Unquoted](#unquoted)
-    * [Containers](#containers)
-      * [Arrays](#arrays)
-      * [Objects](#objects)
+  * [Non-Functional](#non-functional)
+    * [Comments](#comments)
+      * [Hash](#hash)
+      * [Double Slash](#double-slash)
+      * [Slash Star](#slash-star)
+      * [HTML](#html)
+    * [Spacing](#spacing)
+      * [White Space](#white-space)
+      * [Blue Space](#blue-space)
+      * [Green Space](#green-space)
   * [Functional](#functional)
     * [Paths](#paths)
     * [Variables](#variables)
@@ -35,162 +31,26 @@
         * [Boolean Xor](#boolean-xor)
     * [Concatenation](#concatenation)
     * [Includes](#includes)
-  * [Non-Functional](#non-functional)
-    * [Comments](#comments)
-      * [Hash](#hash)
-      * [Double Slash](#double-slash)
-      * [Slash Star](#slash-star)
-      * [HTML](#html)
-    * [Spacing](#spacing)
-      * [White Space](#white-space)
-      * [Blue Space](#blue-space)
-      * [Green Space](#green-space)
-
+  * [Elements](#elements)
+    * [Boolean](#boolean)
+    * [Numeric](#numeric)
+      * [Integer](#integer)
+      * [Float](#float)
+    * [Strings](#strings)
+      * [Single Quote](#single-quote)
+      * [Double Quote](#double-quote)
+      * [Triple Quote](#triple-quote)
+      * [Sextuple Quote](#sextuple-quote)
+      * [Unquoted](#unquoted)
+    * [Containers](#containers)
+      * [Arrays](#arrays)
+      * [Objects](#objects)
 
 # Overview
 
 JDON is a blend of flexible and functional configuration languages and reduces to a JSON structure.
 
 # Syntax
-
-## Elements
-
-### Boolean
-
-Definition
-```
-0|1|false|true|no|yes
-```
-All characters are case-insensitive
-
-Examples
-```
-0     # boolean false
-1     # boolean true
-false # boolean false
-true  # boolean true
-no    # boolean false
-yes   # boolean true
-```
-
-
-
-### Numeric
-
-#### Integer
-Definition
-```
-[0-9]+|0b[01]+|0o[0-7]+|0x[0-9a-fA-F]+
-```
-
-Examples
-```
-100
-0b1100100
-0o144
-0x64
-```
-#### Float
-Definition
-```
-[0-9]+\.[0-9]+
-```
-Examples
-```
-3.14159
-```
-### Strings
-
-#### Single Quote
-
-Single quoted strings are strings which start and end with one single quote character.  They may not span multiple lines and may not contain variables, $ is treated literally.
-
-```
-' This is a single quoted string '
-```
-
-#### Double Quote
-
-Double quoted strings are strings which start and end with one double quote character.  They may not span multiple lines but may contain variables.
-
-```
-" This is a single quoted string which may contain a $variable "
-```
-
-#### Triple Quote
-
-Triple qouted strings are strings which start and end with three single quote characters.  They may span multiple lines but may not contain variables, $ is treated literally.
-
-```
-'''
-This is a triple quoted string
-'''
-```
-
-#### Sextuple Quote
-
-Sextuple quoted strings are strings which start and end with three double quote characters.  They may span multiple lines and may contain variables.
-
-```
-"""
-This is a sextuple quoted string which may contain a $variable
-"""
-```
-
-#### Unquoted
-
-An unquoted string is a set of characters which cannot include any of the following
-```
-=
-#
-,
-[ or ]
-{ or }
-+ or -
-* or /
-!
-$
-"
-'
-newline characters (\r \n)
-```
-
-Examples
-```
-this is an unquoted string.
-this is another unquoted string.
-```
-
-### Containers
-
-#### Arrays
-
-Arrays are sets of elements separated by a valid separator.  All elements are valid array members, including other arrays.  Arrays must be enclosed in brackets [ ], except if the array appears as the root level element.  Valid separators are commas (,) and end-of-line characters (\r \n).
-
-Examples
-```
-[ 1, 2, 3 ]
-
-[
-  1
-  2
-  3
-]
-```
-
-#### Objects
-
-Objects are sets of key/value pairs separated by a valid separator.  Keys may be any valid [path](#path) and values may be any valid element, including other objects.  Objects must be enclosed in braces { }, except if the object appears as the root level element.  Valid pair separators are equals (=) and colons (:).  Valid member separators are commas (,) and end-of-line characters (\r \n).
-
-Examples
-```
-{ a: b, c: d }
-
-{
-  a = b
-  c = d
-}
-```
 
 ## Functional
 
@@ -400,3 +260,141 @@ Blue space includes any white space or comments.
 Green space includes spaces, tabs and until-end-of-line comments (hash and double slash).
 
 
+## Elements
+
+### Boolean
+
+Definition
+```
+0|1|false|true|no|yes
+```
+All characters are case-insensitive
+
+Examples
+```
+0     # boolean false
+1     # boolean true
+false # boolean false
+true  # boolean true
+no    # boolean false
+yes   # boolean true
+```
+
+
+
+### Numeric
+
+#### Integer
+Definition
+```
+[0-9]+|0b[01]+|0o[0-7]+|0x[0-9a-fA-F]+
+```
+
+Examples
+```
+100
+0b1100100
+0o144
+0x64
+```
+#### Float
+Definition
+```
+[0-9]+\.[0-9]+
+```
+Examples
+```
+3.14159
+```
+### Strings
+
+#### Single Quote
+
+Single quoted strings are strings which start and end with one single quote character.  They may not span multiple lines and may not contain variables, $ is treated literally.
+
+```
+' This is a single quoted string '
+```
+
+#### Double Quote
+
+Double quoted strings are strings which start and end with one double quote character.  They may not span multiple lines but may contain variables.
+
+```
+" This is a single quoted string which may contain a $variable "
+```
+
+#### Triple Quote
+
+Triple qouted strings are strings which start and end with three single quote characters.  They may span multiple lines but may not contain variables, $ is treated literally.
+
+```
+'''
+This is a triple quoted string
+'''
+```
+
+#### Sextuple Quote
+
+Sextuple quoted strings are strings which start and end with three double quote characters.  They may span multiple lines and may contain variables.
+
+```
+"""
+This is a sextuple quoted string which may contain a $variable
+"""
+```
+
+#### Unquoted
+
+An unquoted string is a set of characters which cannot include any of the following
+```
+=
+#
+,
+[ or ]
+{ or }
++ or -
+* or /
+!
+$
+"
+'
+newline characters (\r \n)
+```
+
+Examples
+```
+this is an unquoted string.
+this is another unquoted string.
+```
+
+### Containers
+
+#### Arrays
+
+Arrays are sets of elements separated by a valid separator.  All elements are valid array members, including other arrays.  Arrays must be enclosed in brackets [ ], except if the array appears as the root level element.  Valid separators are commas (,) and end-of-line characters (\r \n).
+
+Examples
+```
+[ 1, 2, 3 ]
+
+[
+  1
+  2
+  3
+]
+```
+
+#### Objects
+
+Objects are sets of key/value pairs separated by a valid separator.  Keys may be any valid [path](#path) and values may be any valid element, including other objects.  Objects must be enclosed in braces { }, except if the object appears as the root level element.  Valid pair separators are equals (=) and colons (:).  Valid member separators are commas (,) and end-of-line characters (\r \n).
+
+Examples
+```
+{ a: b, c: d }
+
+{
+  a = b
+  c = d
+}
+```
