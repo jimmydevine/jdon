@@ -1,7 +1,4 @@
 # jdon
-jimmy devine object notation
-
-
 * [Overview](#overview)
 * [Syntax](#syntax)
   * [Elements](#elements)
