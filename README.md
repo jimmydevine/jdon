@@ -25,7 +25,16 @@ jimmy devine object notation
     * [Assignments](#assignments)
     * [Expressions](#expressions)
       * [Unary Operators](#unary-operators)
+        * Not
       * [Binary Operators](#binary-operators)
+        * [Add](#add)
+        * [Subtract](#subtract)
+        * [Multiply](#multiply)
+        * [Divide](#divide)
+        * [Mod](#mod)
+        * [And](#and)
+        * [Or](#or)
+        * [Xor](#xor)
     * [Includes](#includes)
   * [Non-Functional](#non-functional)
     * [Spacing](#spacing)
@@ -82,7 +91,25 @@ jimmy devine object notation
 
 #### Unary Operators
 
+##### Not
+
 #### Binary Operators
+
+##### Add
+
+##### Subtract
+
+##### Multiply
+
+##### Divide
+
+##### Mod
+
+##### And
+
+##### Or
+
+##### Xor
 
 ### Includes
 
